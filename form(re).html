@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Appointment</title>
+  </head>
+  <body>
+    <img
+      src="doc.png"
+      alt="image not found"
+      align="left"
+      height="510px"
+      width="395px"
+      style="margin-left: 60px"
+    />
+
+    <h1 align="center">Doctor Appointment Form</h1>
+    <hr
+      style="height: 2px; border-width: 0; color: black; background-color: red"
+      width="650px"
+    />
+    <br />
+    <form action="submit.html" method="get">
+      <label style="margin-left: 200px">Appointment Date:</label>
+      <input type="date" name="Date" style="margin-left: 20px" />
+      <br />
+      <br />
+
+      <label style="margin-left: 200px">Appointment Time:</label>
+      <input type="time" name="time" style="margin-left: 19px" />
+      <br />
+      <br />
+
+      <label style="margin-left: 200px">Name:</label>
+      <input
+        type="text"
+        name="username"
+        required
+        placeholder="First"
+        style="margin-left: 102px"
+      />
+
+      <label for="last"></label>
+      <input type="text" name="username" required placeholder="Last" />
+      <br /><br />
+
+      <label style="margin-left: 200px" for="Gender">Gender:</label>
+      <input type="radio" style="margin-left: 95px" />Male
+      <input type="radio" />Female
+      <br />
+      <br />
+      <label style="margin-left: 200px" for="Phone">Phone:</label>
+      <input
+        type="number"
+        name="Phone"
+        required
+        placeholder="####"
+        style="margin-left: 102px"
+      />
+      <br />
+      <br />
+      <label style="margin-left: 200px" for="address">Address:</label>
+      <input
+        type="address"
+        name="address"
+        required
+        placeholder="city"
+        style="margin-left: 90px"
+      />
+      <label for="state"></label>
+      <input type="text" name="state" required placeholder="state" />
+      <br />
+      <br />
+      <label style="margin-left: 200px" for="query">Your Query:</label>
+      <textarea name="query" style="margin-left: 67px"></textarea><br />
+      <br />
+      <label style="margin-left: 200px">Appointment Type:</label>
+      <i style="margin-left: 20px; font-style: normal;"> Select which appointment type(s) you require</i>
+      <br />
+      <input style="margin-left: 350px" type="checkbox" />Cervix checkup <br />
+      <input style="margin-left: 350px" type="checkbox" />Heart checkup <br />
+      <input style="margin-left: 350px" type="checkbox" />Eye check-up <br />
+      <input style="margin-left: 350px" type="checkbox" />Hearing checkup <br />
+
+      <br />
+
+      <button style="margin-left: 350px" type="submit">Submit</button>
+    </form>
+  </body>
+</html>

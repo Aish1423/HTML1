@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <img src="doc.png" alt="image not found" style="width:" align="left" height="510px" width="395px">
+    
+    <h1 align="center">Doctor Appointment Form</h1>
+    <hr style="height:2px;border-width: 0;color: black;background-color:red">
+    <br>
+    <form action="submit.html" method="get">
+
+
+     <label>Appointment Date:</label>
+    <input type="date" name="Date"/>
+    <br>
+    <br>
+
+    <label>Appointment 
+        Time:</label>
+        <input type="time" name="time"/>
+        <br>
+        <br>
+
+    <label>Name:</label>
+    <input type="text" name="username" required placeholder="First"/>
+
+    <label for="last"></label>
+    <input type="text" name="username" required placeholder="Last">
+    <br><br>
+
+    <label for="Gender">Gender:</label>
+      Male <input type="radio" name="Gender">
+      Female<input type="radio" name="gender">
+    <br>
+    <br>
+    <label for="Phone">Phone:</label>
+    <input type="number" name="Phone" required placeholder=####> <br>
+    <br>
+    <label for="address">Address:</label>
+    <input type="address" name="address" required placeholder=city>
+    <label for="state"></label>
+    <input type="text" name="state" required placeholder="state">
+    <br>
+    <br>
+    <label for="query">Your Query:</label>
+    <textarea name="query"></textarea><br>
+    <br>
+    <label>Appointment Type:</label>
+    <h> Select which appointment type(s) you require
+        <br>
+     <input type="checkbox" >Cervix checkup <br>
+     <input type="checkbox" >Heart checkup  <br>
+     <input type="checkbox" >Eye check-up   <br>
+     <input type="checkbox" >Hearing checkup  <br>
+       
+     <br>
+     <input value="133456" name="id" type="hidden">
+
+     <!-- <input type="submit">,-->
+
+     <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
